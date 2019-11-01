@@ -1,0 +1,92 @@
+对象扩展
+	属性的简写
+	方法的简写
+	属性名的表达式
+	Object.is()  			===
+		+0 -0 false      	true
+		NaN NaN true		false
+	Object.setPrototypeOf(obj,proObj)  设置原型对象
+	Object.setPrototypeOf(obj)    获取原型对象
+	Object.keys(obj)     属性名数组
+	Object.values(obj)	 属性值数组
+	Object.entries(obj)		键值对数组  二维数组
+	Object.assign(obj)  对象浅复制
+		let o = Object.assign(obj);
+		对象的合并
+		Object.assign(target,obj,obj2,obj3)
+		可以给某个对象设置默认值
+		Object.assign({},{
+			method:'get',
+			data:null,
+			async:false
+		},{})
+
+函数扩展
+  name 
+  length
+
+  函数参数解构
+  	function test ([a,b]){}
+  	test([1,2]);
+
+
+  rest参数
+  		扩展运算符的逆运算
+  		接受多余的数据
+  		function test(...tail){}
+  		test();
+  		test(1,2,3);
+  		tail [1,2,3]
+
+  箭头函数
+  		()=>{}
+  		this 指向箭头函数声明时的父作用域的this指向
+数组扩展
+	Array.from(类数组,set/map 有Iterator接口的数据结构类型)
+		转为数组
+	Array.of(2,3)  创建数组
+	arr.find(function(item,idex,arr){
+			return item>10;
+	})
+	findIndex
+	fill
+	includes
+	keysfan
+
+--------------------------------------------------------------------------------------------------
+Set集合     Map集合
+Array       Object
+
+new Set();   new Map();
+增删改查     增删改查
+遍历         遍历
+
+
+set.add(value) ;  添加数据
+set.delete(value);  删除数据
+set.clear();  清空数据
+set.keys
+
+
+
+
+模块
+  NodeJS的模块
+  ES的模块
+  	export  导出
+  	export default 导出
+  	import  导入
+
+
+  	浏览器 
+  	  a.js
+  	  b.js
+  	  在b.js文件 中使用a.js中的变量
+  	  html 
+  	  		script src = "a.js"
+  	  		script src = "b.js"
+
+  	 .babelrc文件里
+  	 {
+  	 	"presets":["latest"]
+  	 }

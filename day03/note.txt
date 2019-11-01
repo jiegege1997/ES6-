@@ -1,0 +1,29 @@
+let
+
+
+
+const
+	1.有块级作用域
+	2.变量声明不提升
+	3.暂时性死区
+	4.不可重复声明
+	5.在声明时初始化 不可修改值
+解构
+	数组解构
+		let [a,b=2] = [1];
+	对象的解构
+		let	{name,age} = {}
+	字符串的解构
+		let{toString}='123';
+		let[a,b] = '123';
+	数值的解构
+		let{toString}=123
+	布尔的解构
+		let{toSting}=true
+	使用:
+		函数变量的赋值
+		function test([a,b]){}
+		test([1,2]);
+		function test({a,b}){}
+		test({a:1,b:2});
+对象的扩展

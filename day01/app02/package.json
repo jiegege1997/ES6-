@@ -1,0 +1,13 @@
+{
+  "name": "app02",
+  "version": "1.0.0",
+  "description": "node项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"babel src --out-dir dist",
+    "dev":"npm run start"
+  },
+  "author": "hjj",
+  "license": "ISC"
+}

@@ -1,0 +1,47 @@
+NodeJS的介绍
+	运行js的平台,
+	语言,有一些内置的模块,http,url,querystring,path...
+	npm包管理工具   第三方的包或者模块进行添加删除或者更新
+		cnpm
+			npm install -g cnpm
+		yarn
+			npm install -g yarn
+Webpack的介绍  打包工具
+	webpack工具  一切皆模块  js,css,vue,文件都是模块
+	模块化开发思想
+	打包.npm run build
+ES6转ES5的步骤 (升级版)
+1.初始化node项目
+	npm init -y
+	package.json文件
+2.安装依赖
+	npm install  --save-dev
+	babel-cli
+	bable-preset-latest
+3.编写babel配置文件,在项目根目录底下
+	.babelrc{
+		"presets":["latest"]
+	}
+4.编写ES6的代码
+5.编写脚本指令  
+	package.json
+	{
+		"scripts":{
+			.....,
+			"start":babel src --out-dir dist"
+		}
+	}
+6.转换
+	npm
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+set集合
+	数据不重复
+	new  Set()
+	set.add(v);  添加
+	set.delete(v);  删除
+	set.clear();
+	set.has(v);
+	set.keys    迭代器对象
+	set.values  迭代器对象
+	set.entries 迭代器对象
+	[...new Set(arr)]  数组去重 
+map集合 
+	new Map()
+	map.set(key,value)
+	map.get(key)
+迭代器
+	iterator接口
+
+	Array
+	String
+	Set
+	Map
+	Arguments
+	NodeList
+
+	for-of
+
+	next()方法
+模块
+Promise
+
+Promise.resolve();  将p转成Promise对象 并且Promise对象的状态为resolved状态
+Promise.reject();  将p转成Promise对象 并且Promise对象的状态为reject状态
+Promise.all([]);
+Promise.race([]);
+Promise.finally([]);
+
+
+
+
+
+
+
+
+
+
+
+
+

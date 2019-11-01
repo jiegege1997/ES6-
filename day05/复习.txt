@@ -1,0 +1,39 @@
+html5
+  零碎的标签
+  		块级元素 div p h1-h6  h5新增:article section nav header footer address slide aside figure
+  		行内元素 span a strong b  em i (sub sup log24)  
+  		替代元素 img input 
+  		空元素  br hr meta
+  表格的标签
+  		table  thead tbody tfoot  tr  th  td  caption  colspan=""  rowspan=""
+  表单的标签
+  		form  action="" target="" method=""
+  		input 
+
+css3
+   选择器	
+   	 #
+   	 .
+   	 *
+   	 标签
+   	 属性选择器
+   	 伪类
+   	 伪元素
+   级联
+   文字样式
+   列表样式
+   溢出处理
+   显示与隐藏
+   盒子模型
+   浮动
+   定位
+   flex
+   动画
+   过渡
+   兼容性
+
+linux
+js
+jquery
+bootstrap
+h5api

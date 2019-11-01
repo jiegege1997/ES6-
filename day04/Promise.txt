@@ -1,0 +1,42 @@
+Promis 
+	承诺机制,
+	对象里放置的是异步处理函数,容器。
+	     如果异步执行成功  调用resolve函数
+	     如果异步执行失败  调用reject函数
+	let p = new Promise(function(resolve,reject){
+		$.ajax({
+			url:'',
+			method:'',
+			success(res){
+				resolve(res);
+			},
+			error(error){
+				reject(error);
+			}
+		})
+	});
+	p.then(function(res){
+		//内部异步执行成功的处理
+		//DOM
+	});
+	p.catch(function(error){
+		//内部异步执行失败的处理
+		//提示用户出错了
+	})
+
+
+	推荐使用axios库  纯粹的http库  ajax+Promise  
+	 		axios.get('url').then(function(res){
+
+	 		}).catch(function(error){
+
+	 		});
+	axios库 
+	jquery.ajax库还封装了别的dom操作 
+
+
+	在NodeJS想要用jquery
+	jsdom
+	jquery
+	cnpm install --sava jsdom jquery
+
